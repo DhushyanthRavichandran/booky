@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>BookReview</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar"><h1><b>booky</b></h1></div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Richie Rich</h2>
+            <h5><b>Harvey Comics</b></h5>
+            <p>"Richie Rich" is a comic book icon celebrated for his wealth and adventures, symbolizing opulence and generosity.</p>
+            <button onclick="deletee(event)" class="deleete">Delete</button>
+        </div>
+    </div>
+   <div class="popup-box">
+    <h2>Add Book</h2>
+    <input type="text" placeholder="Book name" id="book-name">
+    <input type="text" placeholder="Author of the book" id="book-author">
+    <textarea placeholder="description of the book" id="book-description"></textarea>
+    <button id="add-book">Add</button>
+    <button id="cancel-popup">Cancel</button>  
+</div>
+
+
+    <div class="popup-overlay"></div>
+    <button class="add-button" id="add-popup">+</button>
+    </body>
+    <script src="script.js"></script>
+
+
+</html>
